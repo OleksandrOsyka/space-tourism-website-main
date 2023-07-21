@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap");
+
+@import "./header.css";
+
+body {
+  margin: 0;
+  color: white;
+}
+
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.subheading1 {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.heading1 {
+  font-size: 80px;
+  line-height: 100px;
+}
+
+.heading2 {
+  font-size: 56px;
+}
+
+.heading3 {
+  font-size: 24px;
+  line-height: 27.5px;
+}
+
+.heading4 {
+  font-size: 20px;
+  line-height: 22.92px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
+
+.heading5 {
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  line-height: 19.2px;
+  text-align: center;
+}
+
+.subheading1 {
+  font-size: 28px;
+}
+
+.subheading2,
+.subheading3,
+.heading5 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  color: #d0d6f9;
+}
+
+.subheading2 {
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 2.36px;
+  display: inline-block;
+}
+
+.text {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #d0d6f9;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  margin: 0;
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) {
+  .heading1 {
+    line-height: 150px;
+    font-size: 150px;
+  }
+
+  .heading2 {
+    font-size: 80px;
+    line-height: 92px;
+  }
+
+  .heading3 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .heading4 {
+    font-size: 32px;
+    line-height: 36.67px;
+    letter-spacing: 2px;
+  }
+
+  .heading5 {
+    font-size: 20px;
+    letter-spacing: 3.38px;
+    line-height: 24px;
+  }
+
+  .subheading2 {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+  }
+
+  .text {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .heading1 {
+    line-height: 172px;
+  }
+
+  .heading2 {
+    font-size: 100px;
+    line-height: 115px;
+  }
+
+  .heading3 {
+    font-size: 56px;
+    line-height: normal;
+  }
+
+  .heading5 {
+    font-size: 28px;
+    line-height: 34px;
+
+    letter-spacing: 4.725px;
+  }
+
+  .subheading1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .text {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
