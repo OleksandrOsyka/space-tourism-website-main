@@ -24,17 +24,13 @@ Users should be able to:
 
 ### Screenshots
 
-![](./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_index.html(iPad%20Mini).png)
+![](./assets/screenshots/screenshot1.png)
 
-![](./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_index.html(iPhone%20SE).png)
+![](./assets/screenshots/screenshot2.png)
 
-![](./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_index.html.png)
+![](./assets/screenshots/screenshot3.png)
 
-![](./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_pages_crew.html(iPad%20Mini).png)
-
-![](./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_pages_destination.html(iPhone%20SE).png)
-
-![](./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_pages_destination.html.png)
+![](./assets/screenshots/screenshot4.png)
 
 ### Links
 
