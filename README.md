@@ -24,17 +24,17 @@ Users should be able to:
 
 ### Screenshots
 
-![](./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_index.html(iPad%20Mini).png)
+<img src="./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_index.html(iPad Mini).png" width="768" height="1024">
 
-![](./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_index.html(iPhone%20SE).png)
+<img src="./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_index.html(iPhone SE).png" width="375" height="667">
 
-![](./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_index.html.png)
+<img src="./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_index.html.png" width="1440" height="900">
 
-![](./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_pages_crew.html(iPad%20Mini).png)
+<img src="./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_pages_crew.html(iPad Mini).png" width="768" height="1024">
 
-![](./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_pages_destination.html(iPhone%20SE).png)
+<img src="./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_pages_destination.html(iPhone SE).png" width="375" height="667">
 
-![](./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_pages_destination.html.png)
+<img src="./assets/screenshots/_C__Users_oleksandr_Desktop_space-tourism-website-main_pages_destination.html.png" width="1440" height="900"> 
 
 ### Links
 
