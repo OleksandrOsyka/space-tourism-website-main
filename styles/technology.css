@@ -25,7 +25,7 @@ body {
   }
   
   .technology__image {
-    width: calc(100% + 51px);
+    width: calc(100% + 48px);
     height: auto;
     margin-left: -24px;
     display: none;
@@ -95,7 +95,7 @@ body {
   @media only screen and (min-width: 768px) {
     body {
       width: 100vw;
-      height: 100vh;
+      height: 100%;
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -109,7 +109,12 @@ body {
       text-align: left;
       margin: 40px 0 60px 39px;
     }
-  
+
+    .technology__image {
+      width: 100%;
+      margin: 0;
+    }
+
     .technology__image img {
       height: 40%;
     }
