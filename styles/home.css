@@ -106,11 +106,14 @@ body {
       width: 274px;
       height: 274px;
       margin-bottom: 10%;
-    }
-  
-    .explore:hover {
-      outline: 88px solid rgba(255, 255, 255, 0.1);
       cursor: pointer;
+      outline: 0 solid rgba(255, 255, 255, 0.1);
+      transition-property: outline-width;
+      transition-duration: .75s;
+    }
+
+    .explore:hover {
+      outline-width: 88px;
     }
   }
   
