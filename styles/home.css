@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: #0b0d19;
   box-sizing: border-box;
   padding: 24px 24px 24px 24px;
   display: flex;
