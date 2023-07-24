@@ -2,10 +2,6 @@
 
 @import "./header.css";
 
-html {
-  height: 100%;
- 
-}
 body {
   margin: 0;
   color: white;
@@ -122,6 +118,111 @@ body {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  body {
+    width: 100vw;
+    min-height: 100%;
+    background-image: url(../assets/crew/background-crew-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 24px 24px 48px 24px;
+    
+  }
+  
+  .heading5 {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: white;
+  }
+  
+  .heading5 > span {
+    opacity: 0.25;
+  }
+  
+  .crew-member__photo {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #383b4b;
+    display: none;
+  }
+  
+  .crew-member__photo img {
+    aspect-ratio: 1 / 1;
+    width: 60%;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .bullets {
+    display: flex;
+    justify-content: center;
+    margin: 26px 0;
+  }
+  
+  .bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 17.44%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+    margin: 0 8px;
+  }
+  
+  .bullet_active {
+    opacity: 1;
+  }
+
+  .crew-member__information {
+    display: none;
+  }
+  
+  .crew-member__position {
+    font-family: "Bellefair";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 8px;
+  }
+  
+  .crew-member__name {
+    font-family: "Bellefair";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 16px;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
   .heading1 {
     line-height: 172px;
   }

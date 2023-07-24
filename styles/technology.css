@@ -1,218 +1,273 @@
+html {
+  height: 100%;
+}
+
 body {
+  width: 100vw;
+  height: 100%;
+  background-image: url(../assets/technology/background-technology-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 24px 24px 48px 24px;
+}
+
+main {
+  text-align: center;
+}
+
+.heading5 {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  color: white;
+}
+
+.heading5 > span {
+  opacity: 0.25;
+}
+
+.technology__image {
+  width: calc(100% + 48px);
+  height: auto;
+  margin-left: -24px;
+  display: none;
+}
+
+.technology__image img {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 170px;
+}
+
+.indicators {
+  margin: 34px 0 26px 0;
+}
+
+.indicator {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  background-color: rgba(240, 240, 240, 0);
+  border-radius: 50%;
+  border: 1px solid hsla(0, 100%, 100%, 0.25);
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.indicator_active {
+  background-color: white;
+  color: #0b0d17;
+}
+
+.subheading2 {
+  margin-bottom: 9px;
+}
+
+.technology__information {
+  display: none;
+}
+
+.heading3 {
+  margin-bottom: 16px;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*Medium devices portrait mode (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) and (orientation: portrait),
+  (min-device-width: 1025px) {
+  html {
+    height: 100%;
+  }
+  body {
     width: 100vw;
     height: 100%;
-    background-image: url(../assets/technology/background-technology-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
-    padding: 24px 24px 48px 24px;
+    background-image: url(../assets/technology/background-technology-tablet.jpg);
+    padding: 0;
     overflow: hidden;
   }
-  
-  main {
-    text-align: center;
-  }
-  
+
   .heading5 {
-    margin-top: 24px;
-    margin-bottom: 32px;
-    color: white;
+    text-align: left;
+    margin: 40px 0 60px 39px;
   }
-  
-  .heading5 > span {
-    opacity: 0.25;
-  }
-  
+
   .technology__image {
-    width: calc(100% + 48px);
-    height: auto;
-    margin-left: -24px;
-    display: none;
-  }
-  
-  .technology__image img {
-    display: block;
-    margin: 0;
     width: 100%;
-    height: 170px;
+    margin: 0;
   }
-  
-  .indicators {
-    margin: 34px 0 26px 0;
+
+  .technology__image img {
+    height: 40%;
   }
-  
+
   .indicator {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    color: white;
-    font-family: "Bellefair";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    background-color: rgba(240, 240, 240, 0);
-    border-radius: 50%;
-    border: 1px solid hsla(0, 100%, 100%, 0.25);
-    margin: 0 8px;
-    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    line-height: 28px;
   }
-  
-  .indicator_active {
-    background-color: white;
-    color: #0b0d17;
-  }
-  
-  .subheading2 {
-    margin-bottom: 9px;
-  }
-  
+
   .technology__information {
-    display: none;
+    max-width: 500px;
+    margin: auto;
   }
-  
+}
+
+/*Medium devices landscape mode (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  html {
+    height: unset;
+  }
+
+  body {
+    width: 100vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    background-image: url(../assets/technology/background-technology-tablet.jpg);
+    padding: 0;
+    overflow: scroll;
+  }
+
+  .heading5 {
+    text-align: left;
+    margin: 40px 0 60px 39px;
+  }
+
+  .technology__image {
+    width: 100%;
+    margin: 0;
+  }
+
+  .technology__image img {
+    height: 40%;
+  }
+
+  .indicator {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .technology__information {
+    max-width: 500px;
+    margin: 100px auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 1025px and up) */
+@media only screen and (min-width: 1025px) {
+  html {
+    height: unset;
+  }
+
+  body {
+    background-image: url("../assets/technology/background-technology-desktop.jpg");
+    overflow: initial;
+    min-height: 100vh;
+    height: 100%;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 3fr 5fr 5fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 1px;
+  }
+
+  .heading5 {
+    grid-area: 1 / 1 / span 1 / span 3;
+    margin-left: 165px;
+  }
+
+  .indicators {
+    grid-area: 2 / 1 / span 1 / span 1;
+  }
+
+  .technology__information {
+    grid-area: 2 / 2 / span 1 / span 1;
+  }
+
+  .technology__image {
+    grid-area: 2 / 3 / span 1 / span 1;
+  }
+
+  .technology__image {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .technology__image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .indicators {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .indicator {
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    line-height: normal;
+    letter-spacing: 2px;
+    border: 2px solid hsla(0, 100%, 100%, 0.25);
+    margin: 16px 0;
+  }
+
+  .subheading2 {
+    margin: 0;
+  }
+
+  .technology__information {
+    margin: auto 50px auto 0;
+  }
+
+  .text,
   .heading3 {
-    margin-bottom: 16px;
+    text-align: left;
   }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {
-      opacity: 0.4;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  /*Medium devices (tablets, 768px and up)*/
-  @media only screen and (min-width: 768px) {
-    body {
-      width: 100vw;
-      height: 100%;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      box-sizing: border-box;
-      background-image: url(../assets/technology/background-technology-tablet.jpg);
-      padding: 0;
-      overflow: hidden;
-    }
-  
-    .heading5 {
-      text-align: left;
-      margin: 40px 0 60px 39px;
-    }
 
-    .technology__image {
-      width: 100%;
-      margin: 0;
-    }
+  .heading3 {
+    margin: 11px 0 17px 0;
+  }
 
-    .technology__image img {
-      height: 40%;
-    }
-  
-    .indicator {
-      width: 60px;
-      height: 60px;
-      font-size: 24px;
-      line-height: 28px;
-    }
-  
-    .technology__information {
-      max-width: 500px;
-      margin: auto;
-    }
+  .subheading2 {
+    display: flex;
+    align-items: flex-start;
   }
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    body {
-      background-image: url("../assets/technology/background-technology-desktop.jpg");
-      overflow: initial;
-      min-height: 100vh;
-      height: 100%;
-    }
-  
-    main {
-      display: grid;
-      grid-template-columns: 3fr 5fr 5fr;
-      grid-template-rows: auto auto;
-      grid-column-gap: 1px;
-    }
-  
-    .heading5 {
-      grid-area: 1 / 1 / span 1 / span 3;
-      margin-left: 165px;
-    }
-  
-    .indicators {
-      grid-area: 2 / 1 / span 1 / span 1;
-    }
-  
-    .technology__information {
-      grid-area: 2 / 2 / span 1 / span 1;
-    }
-  
-    .technology__image {
-      grid-area: 2 / 3 / span 1 / span 1;
-    }
-  
-    .technology__image {
-      width: 100%;
-      height: auto;
-      margin-left: 0;
-    }
-  
-    .technology__image img {
-      width: 100%;
-      height: auto;
-    }
-  
-    .indicators {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .indicator {
-      width: 80px;
-      height: 80px;
-      font-size: 32px;
-      line-height: normal;
-      letter-spacing: 2px;
-      border: 2px solid hsla(0, 100%, 100%, 0.25);
-      margin: 16px 0;
-    }
-  
-    .subheading2 {
-      margin: 0;
-    }
-  
-    .technology__information {
-      margin: auto 50px auto 0;
-    }
-  
-    .text,
-    .heading3 {
-      text-align: left;
-    }
-  
-    .heading3 {
-      margin: 11px 0 17px 0;
-    }
-  
-    .subheading2 {
-      display: flex;
-      align-items: flex-start;
-    }
-  }
-  
+}
