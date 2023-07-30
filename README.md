@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/OsykaOleksandr/space-tourism-website-main)
-- Live Site URL: [Live URL](https://osykaoleksandr.github.io/space-tourism-website-main/)
+- Solution URL: [Solution](https://github.com/OleksandrOsyka/space-tourism-website-main)
+- Live Site URL: [Live URL](https://oleksandrosyka.github.io/space-tourism-website-main/)
 
 ## My process
 
@@ -48,7 +48,7 @@ Users should be able to:
 
 ## Author
 
-- GitHub - [@OsykaOleksandr](https://github.com/OsykaOleksandr)
+- GitHub - [@OsykaOleksandr](https://github.com/OleksandrOsyka)
 - Frontend Mentor - [@OsykaOleksandr](https://www.frontendmentor.io/profile/OsykaOleksandr)
 
 
